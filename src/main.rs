@@ -91,7 +91,7 @@ fn main() {
                 oflag = true;
             }
         }
-        if aflag == false || pflag == false {
+        if aflag == false || pflag == false || oflag == false {
             println!("Error, not enough flags supplied.");
             process::exit(1)
         }
